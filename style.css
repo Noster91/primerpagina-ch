@@ -1,0 +1,43 @@
+div, section, header, body, footer, article, nav {
+
+	border: 1px solid red;
+
+}
+nav {
+	text-align: right;
+	position: relative;
+	float: none;
+
+}
+ul, li {
+	list-style: none;
+	text-align: right;
+	display: inline-block;
+	padding: 5px;
+	
+}
+.lupa {
+	display: inline-block;
+	text-decoration: none;
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+	width: 70px;
+	height: 20px;
+
+
+}
+
+
+<-- ids -->
+
+#id {
+	float: none;
+
+
+}
+#menu li {
+	float: none;
+	position: relative;
+
+}
