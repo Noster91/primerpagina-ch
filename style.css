@@ -6,7 +6,7 @@ div, section, header, body, footer, article, nav {
 nav {
 	text-align: right;
 	position: relative;
-	float: none;
+	
 
 }
 ul, li {
@@ -22,22 +22,19 @@ ul, li {
 	background-color: lightblue;
 	color: white;
 	text-align: center;
-	width: 70px;
-	height: 20px;
+	margin: 0px;
 
 
 }
 
 
 <-- ids -->
-
-#id {
-	float: none;
+#logo {
+	
 
 
 }
 #menu li {
-	float: none;
-	position: relative;
+	text-align: right;
 
 }
