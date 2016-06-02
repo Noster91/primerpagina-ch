@@ -3,17 +3,12 @@ div, section, header, body, footer, article, nav {
 	border: 1px solid red;
 
 }
-nav {
-	text-align: right;
-	position: relative;
-	
-
-}
 ul, li {
 	list-style: none;
 	text-align: right;
 	display: inline-block;
-	padding: 5px;
+	position: relative;	
+
 	
 }
 .lupa {
@@ -29,12 +24,32 @@ ul, li {
 
 
 <-- ids -->
-#logo {
-	
+#menu li {
+	text-align: right;
+
+}
+
+.bannerprincipal {
+	background-image: url("images/indexbanner-bg3.jpg");
+	height: 600px;
 
 
 }
-#menu li {
-	text-align: right;
+.center {
+text-align: center;
+
+}
+.left {
+text-align: left;
+
+}
+.right {
+text-align: right;
+
+}
+
+.parrafo {
+display: inline-block;
+float: left;
 
 }
