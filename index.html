@@ -3,20 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Maquetación Básica</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="grid.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	
 <!-- Logo y Barra de Navegacion -->
 	<header class="container">
-		<div class="row">
-			<figure class="col-6" id="logo">
+		<div class="row" >
+			<figure class="col-6 inicio">
 				<img src="images/header-logo.png" alt="logo Hostro">
 				<figcaption>Logo</figcaption>
 			</figure>
-			<nav class="push-12 col-3">
-				<ul class="col-3 push-9" id="menu">
+			<nav class="col-3 fin">
+				<ul id="menu">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -27,13 +28,13 @@
 	<div class="bannerprincipal">
 		<div class="container">
 			<h2>Regular Updates</h2>
-			          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Beatae provident obcaecati libero aut officiis corporis facere sunt esse assumenda non ea recusandae quidem tempora ipsam accusamus, laborum vitae aperiam error.</p>    
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Beatae provident obcaecati libero aut officiis corporis facere sunt esse assumenda non ea recusandae quidem tempora ipsam accusamus, laborum vitae aperiam error.</p>    
 			<div>
-			            <form class="row"action="">
-			                    <input class="push-2 col-8" type="search" name="searchdomain" placeholder="Enter your domain and hit enter">
-			                    <button class="lupa col-4" type="submit">Search</button>
-			            </form>
-			        </div>
+			    <form class="row"action="">
+			        <input class="col-8 push-1" type="search" name="searchdomain" placeholder="Enter your domain and hit enter">
+			        <button class="lupa col-3" type="submit">Search</button>
+			    </form>
+			</div>
 		</div>
 	</div>
 <!-- Seccion de los Servicios -->	
@@ -84,7 +85,7 @@
 				<ul>
 					<li class="right parrafo">
 						<h3>Retina Ready</h3>
-						<img src="images/ser1.png" alt="">
+						<img src="images/ser1.png" class="iconito" alt="">
 						<p>Repellendus provident ratione cum vel. Quae, reprehenderit.</p>
 					</li>
 					<li class="right">
@@ -100,7 +101,7 @@
 				</ul>
 			</article>
 			<article class="col-4">
-				<img src="images/iphone2.png" alt="Iphone">
+				<img src="images/iphone2.png" class="center" alt="Iphone">
 			</article>
 			<article class="col-4">
 				<ul>
