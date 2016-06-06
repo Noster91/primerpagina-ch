@@ -1,4 +1,41 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 li {
 	list-style: none;
 	text-align: right;
@@ -37,33 +74,5 @@ text-align: left;
 }
 .right {
 text-align: right;
-
-}
-
-.iconito {
-	position: relative;
-	right: 0;
-
-
-}
-header {
-padding: 0px;
-
-}
-
-figcaption {
-visibility: hidden;
-
-}
-nav {
-	margin-top: 15px;
-
-}
-.inicio {
-margin-left: 15px;
-
-}
-.fin {
-margin-left: -40px;
 
 }
