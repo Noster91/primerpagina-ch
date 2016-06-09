@@ -1,78 +1,116 @@
+/* Fuentes */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+/* Resets*/
+ul,ol{
+    list-style:none; /*elimina la viñeta*/
+    padding:0;
+    margin: 0;
+}
+figure{
+    margin:0; /*aplico margin 0 al logo*/
+}
+
+
+/* Contenedores */
+* {
+    box-sizing:border-box; /*descuenta del ancho y alto, lo sumado
+    en padding y border. Lo descuenta hacia adentro y no hacia afuera*/
+    border: 0.1px solid red;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+}    
 
 
 
 
+/* Clases */
+.cleaner {
+	clear: both;
 
+}
 
+.logo {
+    float: left;
+ }
 
+.main-header {
+	width: 1200px;
+	margin: auto;
+	padding: 20px 0px;
+	}
+.main-nav {
+	float: right;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-li {
-	list-style: none;
-	text-align: right;
-	display: inline-block;
-	position: relative;	
-
+}
+.main-nav li {
+	float: left;
+	margin: 8px 0px 0px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.main-nav a {
+	text-decoration: none;
 	
 }
-.lupa {
-	display: inline-block;
-	text-decoration: none;
-	background-color: lightblue;
-	color: white;
-	text-align: center;
-	margin: 0px;
 
-
+.banner-title {
+	font-size: 50px;
+	color: #fff;
+	padding-top: 120px;
+	margin: 0;
 }
-
-
-.bannerprincipal {
-	background-image: url("images/indexbanner-bg3.jpg");
-	height: 600px;
-
-
+.banner-text {
+	font-size: 20px;
+	color: #fff;
 }
-.center {
-
-	text-align: center;
+.register {
+	background-color: #fff;
 	position: relative;
-	centered
+	top: 30px;
 }
-.left {
-text-align: left;
+.register input {
+	width: 1000px;
+	height: 60px;
+	font-size: 16px;
+	font-family: inherit;
+
 
 }
-.right {
-text-align: right;
+.register button {
+	width: 190px;
+	height: 60px;
+	border: none;
+	background-color: #06b4f2;
+	color: #fff;
+	font-family: inherit;
+	font-size: 16px;
+}
+.producto {
+	float: left;
+	width: 298px;	
+	text-align: center;
+	margin-top: 50px;
+}
+
+.producto h4 {
+	text-transform: uppercase;
 
 }
+
+/* Grid */
+.container {
+ width: 1200px;
+ margin: auto;
+
+}
+
+/* IDs */
+
+#banner {
+	background: url(./images/indexbanner-bg3.jpg);
+	background-size: cover;
+}
+
