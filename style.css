@@ -75,6 +75,11 @@ img {
 	font-size: 20px;
 	color: #fff;
 }
+
+  /*********************/
+ /***** Form Index ****/
+/*********************/
+
 .register {
 	background-color: #fff;
 	position: relative;
@@ -105,6 +110,56 @@ img {
 	padding: 0;
 	float: left;
 }
+  /*********************/
+ /***** Form Contact **/
+/*********************/
+
+
+.contact-register input {
+	width: 100%;
+	display: block;
+	padding: 10px;
+	margin-bottom: 30px;
+	height: 45px;
+}
+.contact-register-izq {
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.contact-register-der {
+	float: left;
+	width: 50%;
+	padding-left: 15px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.contact-register-der input {
+	height: 100%;
+	text-align: unset;
+
+}
+.contact-boton {
+	display: block;
+	border: none;
+	background-color: #06b4f2;
+	color: #fff;
+	font-family: inherit;
+	text-transform: uppercase;
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	width: 20%;	
+	margin: auto;
+	font-weight: bold;
+	font-size: 12px;
+
+
+}
+
+
 .title {
 	font-size: 50px;
 	color: rgba(35,49,65,1);
@@ -341,8 +396,18 @@ footer article {
 	padding: 15px 0px;
 	text-align: center;
 }
+#contact-banner {
+	background: url(./images/indexbanner-bg2.jpg);
+	background-size: cover;
+	height: 400px;	
 
+}
 
+a:active {
+	font-style: bold;
+	color: red;
+
+}
 
 
 @media (max-width: 800px) {
@@ -408,9 +473,9 @@ footer article {
 		position: absolute;
 	}
 	#banner {
-	background: none;
-	height: 0;
-	position: relative;
+		background: none;
+		height: 0;
+		position: relative;
 	}
 	.register {
 		top:0;
@@ -421,4 +486,23 @@ footer article {
 		font-size: 10px;
 		text-align: center;
 	}
+	  /*********************/
+	 /***** Form Contact **/
+	/*********************/
+
+
+	.contact-register-izq {
+		width: 100%;
+		padding-right: 0px;
+	}
+	.contact-register-der {
+		width: 100%;
+		padding-left: 0;
+	}
+	#contact-banner {
+		background: none;
+		height: 0;
+		position: relative;
+	}
+
 }
