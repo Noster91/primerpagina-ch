@@ -73,6 +73,7 @@ img {
 .banner-text {
 	font-size: 20px;
 	color: #fff;
+	padding-top: 40px;
 }
   /******************************/
  /***** Nav Highligter Test ****/
@@ -108,8 +109,9 @@ body.contact li.contact a{
 
 .register {
 	background-color: #fff;
+	margin-bottom: 50px;
 	position: relative;
-	top: 105px;
+	top: 65px;
 }
 .register input {
 	width: 83%;
@@ -438,6 +440,28 @@ footer article {
 	.container, .main-header {
 		width: 95%;
 	}
+	.logo {
+		width: 40%;	
+	}
+	.main-nav {
+		float: left;
+		width: 60%;
+	}
+	.banner-title {
+		font-size: 40px;
+		
+	}
+	.banner-text {
+		font-size: 14px;
+	
+	}
+	.register {
+		top: 105px;
+	}
+	.register button {
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
 	.producto {
 		width: 50%;
 		margin-top: 80px;
@@ -446,10 +470,6 @@ footer article {
 		width: 48%;
 		margin-right: 4%;
 		margin-bottom: 0;
-	}
-	.register button {
-		font-size: 12px;
-		letter-spacing: 1px;
 	}
 	.features-izq, .features-cen, .features-der {
 		float: none;
@@ -516,7 +536,10 @@ footer article {
 		text-align: center;
 		letter-spacing: 1px;
 	}
-
+	.producto {
+		width: 100%;
+		margin-top: 40px;
+	}
 	footer h3 {
 		font-size: 15px;
 
